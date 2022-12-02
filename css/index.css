@@ -1,0 +1,215 @@
+h1 {
+    font-size: 25px;
+}
+
+.kuangjia {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    background-image: url('../sucai/photos/kcbjyun.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -10;
+    /* background-color: blue; */
+    /* overflow: hidden; */
+}
+
+.kcbjyun {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.cardpool_nav {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 12%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.cardpool_nav::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+}
+
+.cardpool_nav li {
+    position: relative;
+    width: 80%;
+    height: 10%;
+    margin: 5% 10%;
+    border-radius: 15px;
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+
+/* 上面几个小道具统计的框 */
+
+.yuanshi_kz,
+.pinkball_kz {
+    position: absolute;
+    /* top: 20px; */
+    top: 4%;
+    left: 75%;
+    width: 9%;
+    height: 6%;
+    /* width: 120px;
+    height: 40px; */
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.pinkball_kz {
+    left: 85%;
+}
+
+
+/* 上面几个小道具统计的文字 */
+
+.pinkball,
+.yuanshi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+/* 上面几个小道具统计的图片 */
+
+.yuanshi_kz img,
+.pinkball_kz img {
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(0, -50%);
+    width: 36px;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.cardpool {
+    position: absolute;
+    width: 72%;
+    height: 68%;
+    top: 48%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    background-image: url('../sucai/photos/cardpool/cardpool2.jpg');
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+.btn1 {
+    position: relative;
+    width: 18%;
+    /* width: 280px; */
+    top: 88%;
+    left: 57%;
+    /* 不可拖拽图片 */
+    -webkit-user-drag: none;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.btn10 {
+    position: relative;
+    width: 18%;
+    /* width: 280px; */
+    top: 88%;
+    left: 58%;
+    -webkit-user-drag: none;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#dhvideo {
+    position: absolute;
+    width: 100%;
+    display: none;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.pass {
+    position: absolute;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 550;
+    /* width: 100px;
+    height: 50px; */
+    text-align: center;
+    z-index: 100;
+    top: 5%;
+    left: 90%;
+    display: none;
+    cursor: pointer;
+}
+
+.result_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(../sucai/photos/cardbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+    /* background-color: black; */
+    /* background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); */
+}
+
+.result_bg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.result_name {
+    position: absolute;
+    font-size: 60px;
+    font-weight: 550;
+    text-align: center;
+    color: #fff;
+    top: 60%;
+    width: 40%;
+    height: 20%;
+    /* background-color: red; */
+}
+
+
+/* 裴孝明的程序，坚决抵制抄袭 */

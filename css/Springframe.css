@@ -1,0 +1,100 @@
+.changeyy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 120;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+.changeblock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    height: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background-color: antiquewhite;
+}
+
+.changereduce,
+.changeplus,
+.changemax,
+.changeffive {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 30%;
+    left: 50%;
+    transform: translate(200%, 0);
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.changereduce {
+    transform: translate(-300%, 0);
+}
+
+.changemax {
+    transform: translate(320%, 0);
+}
+
+.changeffive {
+    transform: translate(-420%, 0);
+}
+
+.changenum {
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(237, 248, 248);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.changetotal {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.changetrue,
+.changefalse {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 75%;
+    left: 50%;
+    transform: translate(50%, 0);
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgb(237, 248, 248);
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.changefalse {
+    transform: translate(-150%, 0);
+}
